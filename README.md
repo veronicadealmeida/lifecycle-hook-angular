@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Lifecycle hook (8)
+
+1. ngOnChanges	When an input or output binding value changes.
+2. ngOnInit	After the first ngOnChanges.
+3. ngDoCheck	Developer's custom change detection. <br>
+3.1. ngAfterContentInit	After component content initialized. <br>
+3.2.	ngAfterContentChecked	After every check of component content.<br>
+3.3.	ngAfterViewInit	After the views of a component are initialized.<br>
+3.4.	ngAfterViewChecked	After every check of the views of a component.
+4.	ngOnDestroy	Just before the directive is destroyed.
